@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract MYtoken is ERC20, Ownable {
 
 constructor() ERC20("myERCtoken", "ERC") Ownable(msg.sender) {
-    _mint(_msgSender(), 1000 * 10 ** decimals());
+    _mint(_msgSender(), 1000 );
 }
 
     // Function to mint new tokens
